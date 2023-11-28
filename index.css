@@ -177,6 +177,11 @@ ul.job-description li:before {
 
 .network i {
   font-size: 36px;
+}
+.linkedin {
+  color: #3f48cc;
+}
+.github {
   color: black;
 }
 
