@@ -134,7 +134,8 @@ a .fab {
 }
 
 .skills .column ul,
-ul.job-description {
+ul.job-description,
+ul.network {
   list-style-type: none;
 }
 
@@ -163,6 +164,20 @@ ul.job-description li:before {
   content: "✔";
   padding-right: 0.5em;
   color: #7fc7e8;
+}
+
+.network {
+  padding-left: 0px;
+}
+
+.network li {
+  display: inline;
+  margin-right: 5vw;
+}
+
+.network i {
+  font-size: 36px;
+  color: black;
 }
 
 footer {
