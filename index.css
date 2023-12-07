@@ -68,11 +68,28 @@ h1 {
 
 h3 {
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+h3 .fa {
+  margin-right: 10px;
 }
 
 h3,
 h4 {
   font-weight: bold;
+}
+
+h3 i {
+  font-size: 34px !important;
+}
+
+.infos_container {
+  max-height: 1000px;
+  opacity: 1;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
 }
 
 main {
