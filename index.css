@@ -85,6 +85,10 @@ h3 i {
   font-size: 34px !important;
 }
 
+h3 i:hover {
+  cursor: pointer;
+}
+
 .infos_container {
   max-height: 1000px;
   opacity: 1;
